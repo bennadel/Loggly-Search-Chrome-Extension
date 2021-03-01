@@ -1,0 +1,73 @@
+
+.ui-grid-cell-contents {
+	background-color: #FFFFFF ;
+	border-bottom: 1px solid #F0F0F0 ;
+	color: #000000 ;
+	font-family: 'Lucida Console', Monaco, monospace ;
+	font-size: 13px ;
+	padding: 11px 11px 11px 11px ;
+}
+
+.grid-view.ui-grid .ui-grid-cell[ ui-grid-cell ] {
+	height: 40px ;
+}
+
+.bnb-outer {
+	background-color: rgba( 0, 0, 0, 0.8 ) ;
+	bottom: 0px ;
+	display: none ;
+	left: 0px ;
+	position: fixed ;
+	right: 0px ;
+	top: 0px ;
+	z-index: 999999999999 ;
+}
+
+.bnb-outer--active {
+	display: block ;
+}
+
+.bnb-inner {
+	background-color: #ffffff ;
+	border: 1px solid #cccccc ;
+	border-radius: 7px 7px 7px 7px ;
+	bottom: 100px ;
+	color: #000000 ;
+	font-family: monospace ;
+	font-size: 18px ;
+	left: 100px ;
+	line-height: 27px ;
+	margin: 0px 0px 0px 0px ;
+	overflow: auto ;
+	padding: 30px 30px 30px 30px ;
+	position: absolute ;
+	right: 100px ;
+	top: 100px ;
+	white-space: pre-wrap ;
+}
+
+.bnb-inner strong {
+	color: #aa0000 ;
+	font-weight: 400 ;
+}
+
+.bnb-explore,
+.bnb-explore:visited {
+	background-color: #ffffff ;
+	border-radius: 5px 5px 5px 5px ;
+	color: #aa0000 ;
+	display: none ;
+	padding: 7px 13px 8px 13px ;
+	position: absolute ;
+	right: 5px ;
+	top: 5px ;
+}
+
+.bnb-explore:hover {
+	background-color: #aa0000 ;
+	color: #ffffff ;
+}
+
+.bnb-explore--active {
+	display: block ;
+}

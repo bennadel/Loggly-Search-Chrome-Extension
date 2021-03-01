@@ -1,0 +1,23 @@
+{
+	"name": "Loggly Search Plus",
+	"description": "Better styles and grid functionality for Loggly Search.",
+	"version": "1.0",
+	"manifest_version": 2,
+	"browser_action": {
+		"default_icon": "icon-128.png"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"https://*.loggly.com/search"
+			],
+			"css": [
+				"custom.css"
+			],
+			"js": [
+				"custom.js"
+			],
+			"run_at": "document_end"
+		}
+	]
+}
